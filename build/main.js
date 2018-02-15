@@ -70,9 +70,15 @@
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__menu__ = __webpack_require__(1);
+/*
+import createMenu from './menu';
+var menu = createMenu(['Main', 'About Me', 'Portfolio'], 'menu');
+document.body.appendChild(menu);
+*/
 
-var kaka = createKaka();
-document.body.appendChild(kaka);
+
+var dd = Object(__WEBPACK_IMPORTED_MODULE_0__menu__["a" /* default */])();
+document.body.appendChild(dd);
 
 
 /***/ }),
@@ -80,8 +86,23 @@ document.body.appendChild(kaka);
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* unused harmony default export */ var _unused_webpack_default_export = (function () {
-  return "kaka";
+/*
+export default function (array, className) {
+    var menu = document.createElement("ul");
+    menu.className = className;
+    var listItems = '';
+    array.forEach(function(item) {
+          listItems += '<li>', + item + '</li>';
+    });
+    menu.innerHTML = listItems;
+    return menu;
+};
+*/
+
+/* harmony default export */ __webpack_exports__["a"] = (function () {
+   var pupsik = document.createElement("p");
+   pupsik.innerHTML = "дружок-писёк";
+   return pupsik;
 });;
 
 
