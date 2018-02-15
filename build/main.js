@@ -101,7 +101,7 @@ export default function (array, className) {
 
 /* harmony default export */ __webpack_exports__["a"] = (function () {
    var pupsik = document.createElement("p");
-   pupsik.innerHTML = "дружок-писёк";
+   pupsik.innerHTML = "дружок-писёк-48";
    return pupsik;
 });;
 
